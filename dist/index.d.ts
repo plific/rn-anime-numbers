@@ -1,4 +1,4 @@
-declare module 'react-native-animate-number' {
+declare module 'rn-anime-numbers' {
     export interface IAnimateNumberProps {
         /**
          * The value of AnimateNumber component.
