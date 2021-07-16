@@ -1,6 +1,5 @@
 import React, { Component } from 'react';
 import { Text } from 'react-native';
-import Timer from 'react-timer-mixin';
 
 const HALF_RAD = Math.PI / 2
 
@@ -127,7 +126,7 @@ export default class AnimateNumber extends Component {
 
     let progress = this.getAnimationProgress()
 
-    Timer.setTimeout(() => {
+    setTimeout(() => {
 
       let value = (this.endWith - this.startFrom) / this.props.steps
       let sign = value >= 0 ? 1 : -1
