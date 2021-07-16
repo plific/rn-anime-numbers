@@ -1,6 +1,6 @@
 {
   "name": "rn-anime-numbers",
-  "version": "0.1.5",
+  "version": "0.1.5-rc",
   "description": "Customizable react native component for number animations.",
   "main": "./dist/index.js",
   "keywords": [],
