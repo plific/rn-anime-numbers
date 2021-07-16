@@ -1,11 +1,11 @@
 {
   "name": "rn-anime-numbers",
-  "version": "0.1.4",
+  "version": "0.1.5",
   "description": "Customizable react native component for number animations.",
   "main": "./dist/index.js",
   "keywords": [],
   "author": "Victorcassiano",
   "repository": {
-    "url": "https://github.com/Victorcassiano/react-native-animated-numbers.git"
+    "url": "https://github.com/plific/rn-anime-numbers.git"
   }
 }
