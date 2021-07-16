@@ -46,6 +46,7 @@ declare module 'rn-anime-numbers' {
          * A value to start animation from. Default: `0`
          */
         initialValue?: number;
+        style?: any;
     }
     export default class AnimateNumber extends React.Component<IAnimateNumberProps> { }
 }
