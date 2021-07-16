@@ -1,4 +1,6 @@
 declare module 'rn-anime-numbers' {
+    import React from 'react'
+
     export interface IAnimateNumberProps {
         /**
          * The value of AnimateNumber component.
