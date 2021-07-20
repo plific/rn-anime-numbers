@@ -1,5 +1,7 @@
+import React from 'react';
+import { StyleProp, ViewStyle } from 'react-native';
+
 declare module 'rn-anime-numbers' {
-    import React from 'react'
 
     export interface IAnimateNumberProps {
         /**
@@ -46,7 +48,7 @@ declare module 'rn-anime-numbers' {
          * A value to start animation from. Default: `0`
          */
         initialValue?: number;
-        style?: any;
+        style?: StyleProp<ViewStyle>;
     }
     export default class AnimateNumber extends React.Component<IAnimateNumberProps> { }
 }
